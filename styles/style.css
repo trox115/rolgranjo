@@ -32,3 +32,11 @@ section{
 footer{
     margin-top:30px;
 }
+.navbar-brand img{
+    width:70%;
+}
+.navbar-nav{
+    margin-left:auto;
+    margin-right:300px;
+    font-family: 'Exo 2', sans-serif;
+}
