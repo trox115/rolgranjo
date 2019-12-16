@@ -7,8 +7,13 @@ section{
 }
 .card{
     min-height:80%;
-    margin-right:5px !important;
+    margin-right:auto;
     height:100%;
+    margin-left:auto;
+    
+}
+.btn-primary{
+    background-color: #00a54f;
 }
 .wrap{
     height:100%;
@@ -39,6 +44,7 @@ footer{
     margin-left:auto;
     margin-right:300px;
     font-family: 'Exo 2', sans-serif;
+    font-size:1.4rem;
 }
 .carousel-item{
     max-height:500px;
@@ -47,4 +53,45 @@ h6{
     font-family: 'Exo 2', sans-serif;
     color:white;
     font-size:2rem;
+}
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.header{
+height:150px;
+background:url('./images/sucata.jpg');
+background-size: cover;
+}
+.parallax{
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tit{
+text-align:left;
+font-size:4rem;
+    font-family: 'Exo 2', sans-serif;
+margin-top:150px;
+color:#fff;
+}
+.tit h2{
+display:inline;
+line-height:150px;
+vertical-align:middle;
+}
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
