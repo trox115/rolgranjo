@@ -40,3 +40,11 @@ footer{
     margin-right:300px;
     font-family: 'Exo 2', sans-serif;
 }
+.carousel-item{
+    max-height:500px;
+}
+h6{
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+    font-size:2rem;
+}
