@@ -43,6 +43,12 @@ footer{
 main{
 margin-top:100px;
 }
+.scrolled img{
+width:50%;
+}
+.scrolled{
+    font-size:1rem;
+}
 .navbar{
     background-color:darkslategrey;
 }
