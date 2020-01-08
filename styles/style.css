@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 section{
     margin-bottom:30px;
     text-align:center;
@@ -5,6 +8,7 @@ section{
     padding-top:30px;
     padding-bottom:30px;
 }
+
 .card{
     min-height:80%;
     margin-right:auto;
