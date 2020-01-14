@@ -92,12 +92,12 @@ h6{
 }
 .header{
 height:150px;
-background:url('./images/sucata.jpg');
+background:url('./images/geral.jpg');
 background-size: cover;
 }
 .parallax{
 background-attachment: fixed;
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
 }
