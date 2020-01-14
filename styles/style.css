@@ -154,3 +154,10 @@ padding-left: 1.1rem;
 padding-right: 1.1rem;
 }
 }
+.fa-instagram{
+    color:black;
+    font-size:3rem;
+}
+.fa-instagram:hover{
+    color:white;
+}
