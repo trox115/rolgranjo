@@ -31,6 +31,7 @@ background:rgba(200, 200, 203, 1);
     color:white !important;
 }
 .active{
+    border-radius:25%;
     color:black !important;
     background:grey;
 }
@@ -72,6 +73,10 @@ background: linear-gradient(172deg, rgba(181,180,186,1) 0%, rgba(181,180,186,1) 
     margin-right:300px;
     font-family: 'Exo 2', sans-serif;
     font-size:1.4rem;
+}
+h1,h2,h3,h4,h5,h6{
+color:white;
+    font-family: 'Exo 2', sans-serif;
 }
 .carousel-item{
     max-height:500px;
