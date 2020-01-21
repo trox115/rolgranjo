@@ -11,13 +11,27 @@ section{
     padding-top:30px;
     padding-bottom:30px;
 }
-
+.card{
+        align-items: center;
+}
+.card-body{
+    background:rgba(181,180,186,1);
+}
+.card-img-top {
+width:50%;
+text-align:center;
+}
+.card-footer{
+    border:0px solid black;
+    background:rgba(181,180,186,1);
+}
 .card{
     min-height:80%;
     margin-right:auto;
     height:100%;
     margin-left:auto;
-background:rgba(200, 200, 203, 1);
+    border:0px solid black;
+background:rgba(181,180,186,1);
 }
 .btn-primary{
     background-color: #00a54f;
