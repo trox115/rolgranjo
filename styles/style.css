@@ -288,6 +288,15 @@ padding-right: 1.1rem;
 .slideshow-container{
     margin-top:50px;
 }
+.b-verde{
+    background:#00911A;
+}
+.b-azul{
+    background:#244DE2;
+}
+.b-vermelho{
+    background:#E95442;
+}
 .b-laranja{
     background:#FF6600;
 }
