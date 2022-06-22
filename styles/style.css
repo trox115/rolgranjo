@@ -11,13 +11,34 @@ section{
     padding-top:30px;
     padding-bottom:30px;
 }
-
+.card{
+        align-items: center;
+}
+.index-z{
+    z-index:1000000000;
+    margin-top:100px;
+}
+.margin-100{
+    margin-bottom:50px;
+}
+.card-body{
+    background:rgba(181,180,186,1);
+}
+.card-img-top {
+width:50%;
+text-align:center;
+}
+.card-footer{
+    border:0px solid black;
+    background:rgba(181,180,186,1);
+}
 .card{
     min-height:80%;
     margin-right:auto;
     height:100%;
     margin-left:auto;
-background:rgba(200, 200, 203, 1);
+    border:0px solid black;
+background:rgba(181,180,186,1);
 }
 .btn-primary{
     background-color: #00a54f;
@@ -54,11 +75,11 @@ footer{
 main{
 margin-top:100px;
 }
-.scrolled img{
-width:50%;
+.carousel-caption {
+    top:50px !important;
 }
-.scrolled{
-    font-size:1rem;
+h4{
+    font-size:3rem;
 }
 .navbar{
     border-bottom:1px solid white;
@@ -92,12 +113,12 @@ h6{
 }
 .header{
 height:150px;
-background:url('./images/sucata.jpg');
+background:url('./images/geral.jpg');
 background-size: cover;
 }
 .parallax{
 background-attachment: fixed;
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -266,6 +287,15 @@ padding-right: 1.1rem;
 }
 .slideshow-container{
     margin-top:50px;
+}
+.b-verde{
+    background:#00911A;
+}
+.b-azul{
+    background:#244DE2;
+}
+.b-vermelho{
+    background:#E95442;
 }
 .b-laranja{
     background:#FF6600;
