@@ -1,0 +1,286 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background:rgba(88, 87, 91, 1);
+}
+section{
+    margin-bottom:30px;
+    text-align:center;
+    background-color:rgba(181,180,186,1);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.card{
+        align-items: center;
+}
+.card-body{
+    background:rgba(181,180,186,1);
+}
+.card-img-top {
+width:50%;
+text-align:center;
+}
+.card-footer{
+    border:0px solid black;
+    background:rgba(181,180,186,1);
+}
+.card{
+    min-height:80%;
+    margin-right:auto;
+    height:100%;
+    margin-left:auto;
+    border:0px solid black;
+background:rgba(181,180,186,1);
+}
+.btn-primary{
+    background-color: #00a54f;
+}
+.wrap{
+    height:100%;
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+.nav-link {
+    color:white !important;
+}
+.active{
+    border-radius:25%;
+    color:black !important;
+    background:grey;
+}
+.titulo{
+    min-width:100%;
+    margin-bottom:auto;
+    text-align:center;
+}
+
+.texto{
+    min-width:100%;
+    text-align:justify;
+}
+footer{
+    margin-top:30px;
+}
+.navbar-brand img{
+    width:100%;
+}
+main{
+margin-top:100px;
+}
+.scrolled img{
+width:50%;
+}
+.scrolled{
+    font-size:1rem;
+}
+.navbar{
+    border-bottom:1px solid white;
+    background: rgb(181,180,186);
+background: linear-gradient(172deg, rgba(181,180,186,1) 0%, rgba(181,180,186,1) 46%, rgba(127,132,133,1) 100%);
+  box-shadow: 0 1px 2px gray;
+   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.navbar-nav{
+    margin-left:auto;
+    margin-right:300px;
+    font-family: 'Exo 2', sans-serif;
+    font-size:1.4rem;
+}
+h1,h2,h3,h4,h5,h6{
+color:white;
+    font-family: 'Exo 2', sans-serif;
+}
+.carousel-item{
+    max-height:500px;
+}
+h6{
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+    font-size:2rem;
+}
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.header{
+height:150px;
+background:url('./images/geral.jpg');
+background-size: cover;
+}
+.parallax{
+background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tit{
+text-align:left;
+font-size:4rem;
+    font-family: 'Exo 2', sans-serif;
+margin-top:150px;
+color:#fff;
+}
+.tit h2{
+display:inline;
+line-height:150px;
+vertical-align:middle;
+}
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+.fa-instagram{
+    color:black;
+    font-size:3rem;
+}
+.fa-instagram:hover{
+    color:white;
+}
+.logo-servicos img{
+    width:70%;
+    margin-top:5%;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshow-container{
+    margin-top:50px;
+}
+.b-laranja{
+    background:#FF6600;
+}
