@@ -1,6 +1,6 @@
 <?php
 if($_POST["submit"]) {
-    $recipient="geral@rolgranjo.com"; //Enter your mail address
+    $recipient="m.rolgranjo@sapo.pt"; //Enter your mail address
     $subject="Novo Contacto através do site"; //Subject 
     $sender=$_POST["name"];
     $senderEmail=$_POST["email"];
